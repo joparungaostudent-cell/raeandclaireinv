@@ -1185,18 +1185,6 @@ button:active {
   flex-direction: column;
 }
 
-/* CENTER LINE */
-.timeline::before {
-  content: "";
-  position: absolute;
-  left: 50%;
-  top: 0;
-  width: 2px;
-  height: 100%;
-  background: rgba(44,90,160,.25);
-  transform: translateX(-50%);
-}
-
 /* ITEMS */
 .timeline-item {
   position: relative;

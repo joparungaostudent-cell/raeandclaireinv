@@ -1286,7 +1286,7 @@ button:active {
 
 @media (max-width: 900px){
   .timeline{ padding-left:30px; }
-  .timeline::before{ left:20px; }
+  /* .timeline::before removed */
 
   .timeline-item{
     width:100%;
@@ -1475,16 +1475,7 @@ footer h3 {
   }
 
   /* Timeline on mobile (maintains alternating layout) */
-  .timeline::before {
-    content: '';
-    position: absolute;
-    left: 50%;
-    top: 0;
-    bottom: 0;
-    width: 2px;
-    background: linear-gradient(180deg, #2c5aa0, #4a6fa5);
-    transform: translateX(-50%);
-  }
+  /* .timeline::before removed to hide the vertical line on all devices */
 
   .timeline-item {
     position: relative;
@@ -1576,9 +1567,7 @@ footer h3 {
     padding: 30px 0;
   }
 
-  .timeline::before {
-    left: 50%;
-  }
+  /* .timeline::before removed */
 
   .timeline-item {
     width: 48%;
@@ -2439,16 +2428,7 @@ footer h3 {
     padding: 15px 0;
   }
 
-  .timeline::before {
-    content: '';
-    position: absolute;
-    left: 50%;
-    top: 0;
-    bottom: 0;
-    width: 2px;
-    background: linear-gradient(180deg, #2c5aa0, #4a6fa5);
-    transform: translateX(-50%);
-  }
+  /* .timeline::before removed */
 
   .timeline-item {
     position: relative;

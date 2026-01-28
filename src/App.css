@@ -44,14 +44,20 @@
 .sponsors-col:last-child .sponsor-name {
   background: #e8f0f7;
 }
-@media (max-width: 700px) {
-  .sponsors-grid {
-    grid-template-columns: 1fr;
-    gap: 0;
-  }
-  .sponsors-col {
-    margin-bottom: 24px;
-  }
+
+/* Always force two columns for sponsors on all devices */
+.sponsors-grid {
+  grid-template-columns: 1fr 1fr !important;
+  gap: 32px !important;
+}
+.sponsors-col {
+  margin-bottom: 0 !important;
+}
+.sponsors-col.sponsors-gentlemen {
+  border-right: 2px solid #e0e7ef;
+}
+.sponsors-col.sponsors-ladies {
+  border-left: 2px solid #e0e7ef;
 }
 .swatch-title-mobile {
   margin-top: 8px;

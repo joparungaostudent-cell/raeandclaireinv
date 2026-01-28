@@ -136,17 +136,7 @@ export default function App() {
             <p className="time">5:00 PM</p>
           </div>
 
-          <div className="detail-card">
-            <h3> Dress Code</h3>
-            <p>Formal</p>
-            <p className="theme">Navy Blue Theme</p>
-            <div className="color-swatches">
-              <div className="color-swatch" style={{backgroundColor: '#8FD3F4'}} title="Dark Navy"></div>
-              <div className="color-swatch" style={{backgroundColor: '#6BB6E8'}} title="Medium Navy"></div>
-              <div className="color-swatch" style={{backgroundColor: '#4A90D9'}} title="Light Navy"></div>
-              <div className="color-swatch" style={{backgroundColor: '#1F3A5F'}} title="Sky Navy"></div>
-            </div>
-          </div>
+        
         </div>
 
         <h3 className="section-subheading">Locations</h3>
@@ -176,19 +166,28 @@ export default function App() {
           </div>
         </div>
 
-        <h3 className="section-subheading">Dress Code Guidelines</h3>
+        <h3 className="section-subheading">Wedding Attire: Strictly Formal</h3>
         <div className="dress-code-container">
           <div className="dress-group">
             <h4 className="dress-category">Principal Sponsors</h4>
             <div className="dress-code-gallery">
               <div className="dress-item reveal">
                 <img
-                  src="https://tse3.mm.bing.net/th/id/OIP.OKsKtV33SoA1ISjSGWHtPAHaIB?w=2769&h=3000&rs=1&pid=ImgDetMain&o=7&rm=3text=Barong"
+                  src="./src/assets/barong.png"
                   alt="Barong/Long Gown"
                   style={{ cursor: 'pointer' }}
-                  onClick={() => window.open('https://tse3.mm.bing.net/th/id/OIP.OKsKtV33SoA1ISjSGWHtPAHaIB?w=2769&h=3000&rs=1&pid=ImgDetMain&o=7&rm=3text=Barong', '_blank')}
+                  onClick={() => window.open('./src/assets/barong.png', '_blank')}
                 />
                 <span className="dress-label">Barong & Long Gown</span>
+                <p className="theme"></p>
+            
+
+               <div className="color-swatches">
+              <div className="color-swatch" style={{backgroundColor: '#2840b1'}} title="Dark Navy"></div>
+              <div className="color-swatch" style={{backgroundColor: '#1f1f96'}} title="Medium Navy"></div>
+              <div className="color-swatch" style={{backgroundColor: '#1d2e78'}} title="Light Navy"></div>
+              <div className="color-swatch" style={{backgroundColor: '#221f60'}} title="Sky Navy"></div>
+            </div>
               </div>
             </div>
           </div>
@@ -197,12 +196,18 @@ export default function App() {
             <div className="dress-code-gallery">
               <div className="dress-item reveal">
                 <img
-                  src="https://i.pinimg.com/736x/1c/65/ff/1c65ff93ee4039a829f076df1ba5cc88.jpg"
+                  src="./src/assets/suit.png"
                   alt="Suit/Dress"
                   style={{ cursor: 'pointer' }}
-                  onClick={() => setZoomImg('https://i.pinimg.com/736x/1c/65/ff/1c65ff93ee4039a829f076df1ba5cc88.jpg')}
+                  onClick={() => window.open('./src/assets/suit.png', '_blank')}
                 />
                 <span className="dress-label">Suit & Dress</span>
+                <div className="color-swatches">
+              <div className="color-swatch" style={{backgroundColor: '#8FD3F4'}} title="Dark Navy"></div>
+              <div className="color-swatch" style={{backgroundColor: '#6BB6E8'}} title="Medium Navy"></div>
+              <div className="color-swatch" style={{backgroundColor: '#4A90D9'}} title="Light Navy"></div>
+              <div className="color-swatch" style={{backgroundColor: '#1F3A5F'}} title="Sky Navy"></div>
+            </div>
               </div>
             </div>
           </div>
@@ -291,46 +296,16 @@ export default function App() {
             </p>
           </div>
 
-          <div className="timeline-item left reveal">
-           
-            <h3 className="timeline-title">Principal Sponsors</h3>
-            <div className="sponsors-list">
-              <div className="sponsor-pair">
-                <span className="sponsor-name">Regalado A. Cordova</span>
-                <span className="sponsor-divider">•</span>
-                <span className="sponsor-name">Jocelyn C. Ballesteros</span>
-              </div>
-              <div className="sponsor-pair">
-                <span className="sponsor-name">Raul Peter M. Santos</span>
-                <span className="sponsor-divider">•</span>
-                <span className="sponsor-name">Lucia C. Maniacup</span>
-              </div>
-              <div className="sponsor-pair">
-                <span className="sponsor-name">Ronald S. Flores</span>
-                <span className="sponsor-divider">•</span>
-                <span className="sponsor-name">Maria Luisa Gonzales</span>
-              </div>
-              <div className="sponsor-pair">
-                <span className="sponsor-name">Arnel N. Puri</span>
-                <span className="sponsor-divider">•</span>
-                <span className="sponsor-name">Ana Gloria C. Dizon</span>
-              </div>
-              <div className="sponsor-pair">
-                <span className="sponsor-name">Reginald N. Tiomico</span>
-                <span className="sponsor-divider">•</span>
-                <span className="sponsor-name">Yolanda C. Barrera</span>
-              </div>
-            </div>
-          </div>
+          
         </div>
       </section>
 
       <section className="reveal" id="rsvp">
         <h2>RSVP</h2>
         <div className="rsvp-details-block">
-          <h3 className="rsvp-gift-title">A hint on Gift</h3>
+          <h3 className="rsvp-gift-title">Note on Gifts</h3>
           <p className="rsvp-gift-message">
-            Your presence at our wedding is more than enough. But if we are honored with a gift from you, a monetary gift will be very much appreciated.
+           With all that we have, we've been truly blessed. Your presence and prayers are all that we request. But, if you desire to give nonetheless, a monetary gift is one we suggest.
           </p>
           <h3 className="rsvp-info-title">RSVP</h3>
           <p className="rsvp-info-message">
@@ -339,14 +314,7 @@ export default function App() {
             Please contact us thru our Facebook Messenger.
           </p>
         </div>
-        <div className="rsvp-messenger-links">
-          <a href="https://www.facebook.com/claire.tiomico" target="_blank" rel="noopener noreferrer" className="messenger-link">
-            Message Claire on Messenger
-          </a>
-          <a href="https://www.facebook.com/raemandy.cordova" target="_blank" rel="noopener noreferrer" className="messenger-link">
-            Message Rae on Messenger
-          </a>
-        </div>
+       
       </section>
 
       <footer className="reveal">

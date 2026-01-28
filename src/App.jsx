@@ -124,7 +124,7 @@ export default function App() {
         <h2>Wedding Details</h2>
 
         <div className="details-grid">
-          <div className="detail-card">
+          {/* <div className="detail-card">
             <h3> Ceremony Time</h3>
             <p>Sto. Niño Parish Church, CSFP</p>
             <p className="time">2:30 PM</p>
@@ -134,7 +134,7 @@ export default function App() {
             <h3> Reception</h3>
             <p>The Orchids Garden, CSFP</p>
             <p className="time">5:00 PM</p>
-          </div>
+          </div> */}
 
         
         </div>

@@ -2,6 +2,9 @@ import { useEffect, useState } from 'react'
 import './App.css'
 
 export default function App() {
+  // State for active swatch index per dress group
+  const [activeSponsorSwatch, setActiveSponsorSwatch] = useState(null);
+  const [activeGuestSwatch, setActiveGuestSwatch] = useState(null);
 
   useEffect(() => {
     const reveals = document.querySelectorAll('.reveal')
@@ -180,21 +183,62 @@ export default function App() {
                 />
                 <span className="dress-label">Gentlemen: Barong</span>
                 <div className="color-swatches">
-              <div className="color-swatch" style={{backgroundColor: '#F5F5DC'}} title="Beige"></div>
-              </div>
+                  <div
+                    className="color-swatch"
+                    style={{ backgroundColor: '#F5F5DC' }}
+                    title="Beige"
+                    onClick={() => setActiveSponsorSwatch(activeSponsorSwatch === 0 ? null : 0)}
+                  ></div>
+                </div>
+                {/* Swatch title for mobile */}
+                {activeSponsorSwatch === 0 && (
+                  <div className="swatch-title-mobile">Beige</div>
+                )}
                 <br></br>
                 <span className="dress-label">Ladies: Long Gown</span>
                 <p className="theme"></p>
                 
             
 
-               <div className="color-swatches">
-              <div className="color-swatch" style={{backgroundColor: '#0041c0'}} title="Royal"></div>
-        
-              <div className="color-swatch" style={{backgroundColor: '#0b1aa3'}} title="Indigo"></div>
-              <div className="color-swatch" style={{backgroundColor: '#002d83'}} title="Sapphire"></div>
-              <div className="color-swatch" style={{backgroundColor: '#1a1965'}} title="Berry"></div>
-            </div>
+                <div className="color-swatches">
+                  <div
+                    className="color-swatch"
+                    style={{ backgroundColor: '#0041c0' }}
+                    title="Royal"
+                    onClick={() => setActiveSponsorSwatch(activeSponsorSwatch === 1 ? null : 1)}
+                  ></div>
+                  <div
+                    className="color-swatch"
+                    style={{ backgroundColor: '#0b1aa3' }}
+                    title="Indigo"
+                    onClick={() => setActiveSponsorSwatch(activeSponsorSwatch === 2 ? null : 2)}
+                  ></div>
+                  <div
+                    className="color-swatch"
+                    style={{ backgroundColor: '#002d83' }}
+                    title="Sapphire"
+                    onClick={() => setActiveSponsorSwatch(activeSponsorSwatch === 3 ? null : 3)}
+                  ></div>
+                  <div
+                    className="color-swatch"
+                    style={{ backgroundColor: '#1a1965' }}
+                    title="Berry"
+                    onClick={() => setActiveSponsorSwatch(activeSponsorSwatch === 4 ? null : 4)}
+                  ></div>
+                </div>
+                {/* Swatch title for mobile */}
+                {activeSponsorSwatch === 1 && (
+                  <div className="swatch-title-mobile">Royal</div>
+                )}
+                {activeSponsorSwatch === 2 && (
+                  <div className="swatch-title-mobile">Indigo</div>
+                )}
+                {activeSponsorSwatch === 3 && (
+                  <div className="swatch-title-mobile">Sapphire</div>
+                )}
+                {activeSponsorSwatch === 4 && (
+                  <div className="swatch-title-mobile">Berry</div>
+                )}
               </div>
             </div>
           </div>
@@ -212,19 +256,76 @@ export default function App() {
 
                 <span className="dress-label">Gentlemen: Suit / Barong</span>
                 <div className="color-swatches">
-                  <div className="color-swatch" style={{backgroundColor: '#36454F'}} title="Charcoal"></div>
-              <div className="color-swatch" style={{backgroundColor: '#02075d'}} title="Dark Navy"></div>
-              <div className="color-swatch" style={{backgroundColor: '#000000'}} title="Black"></div>
-
-              
-            </div> <br></br>
+                  <div
+                    className="color-swatch"
+                    style={{ backgroundColor: '#36454F' }}
+                    title="Charcoal"
+                    onClick={() => setActiveGuestSwatch(activeGuestSwatch === 0 ? null : 0)}
+                  ></div>
+                  <div
+                    className="color-swatch"
+                    style={{ backgroundColor: '#02075d' }}
+                    title="Dark Navy"
+                    onClick={() => setActiveGuestSwatch(activeGuestSwatch === 1 ? null : 1)}
+                  ></div>
+                  <div
+                    className="color-swatch"
+                    style={{ backgroundColor: '#000000' }}
+                    title="Black"
+                    onClick={() => setActiveGuestSwatch(activeGuestSwatch === 2 ? null : 2)}
+                  ></div>
+                </div>
+                {/* Swatch title for mobile */}
+                {activeGuestSwatch === 0 && (
+                  <div className="swatch-title-mobile">Charcoal</div>
+                )}
+                {activeGuestSwatch === 1 && (
+                  <div className="swatch-title-mobile">Dark Navy</div>
+                )}
+                {activeGuestSwatch === 2 && (
+                  <div className="swatch-title-mobile">Black</div>
+                )}
+                <br></br>
                 <span className="dress-label">Ladies: Long gown / Dress</span>
                 <div className="color-swatches">
-              <div className="color-swatch" style={{backgroundColor: '#00bff5'}} title="Sky"></div>
-              <div className="color-swatch" style={{backgroundColor: '#00e0fa'}} title="Aqua"></div>
-              <div className="color-swatch" style={{backgroundColor: '#0097e3'}} title="Ocean"></div>
-              <div className="color-swatch" style={{backgroundColor: '#00315b'}} title="Navy"></div>
-            </div>
+                  <div
+                    className="color-swatch"
+                    style={{ backgroundColor: '#00bff5' }}
+                    title="Sky"
+                    onClick={() => setActiveGuestSwatch(activeGuestSwatch === 3 ? null : 3)}
+                  ></div>
+                  <div
+                    className="color-swatch"
+                    style={{ backgroundColor: '#00e0fa' }}
+                    title="Aqua"
+                    onClick={() => setActiveGuestSwatch(activeGuestSwatch === 4 ? null : 4)}
+                  ></div>
+                  <div
+                    className="color-swatch"
+                    style={{ backgroundColor: '#0097e3' }}
+                    title="Ocean"
+                    onClick={() => setActiveGuestSwatch(activeGuestSwatch === 5 ? null : 5)}
+                  ></div>
+                  <div
+                    className="color-swatch"
+                    style={{ backgroundColor: '#00315b' }}
+                    title="Navy"
+                    onClick={() => setActiveGuestSwatch(activeGuestSwatch === 6 ? null : 6)}
+                  ></div>
+                </div>
+                {/* Swatch title for mobile */}
+                {activeGuestSwatch === 3 && (
+                  <div className="swatch-title-mobile">Sky</div>
+                )}
+                {activeGuestSwatch === 4 && (
+                  <div className="swatch-title-mobile">Aqua</div>
+                )}
+                {activeGuestSwatch === 5 && (
+                  <div className="swatch-title-mobile">Ocean</div>
+                )}
+                {activeGuestSwatch === 6 && (
+                  <div className="swatch-title-mobile">Navy</div>
+                )}
               </div>
             </div>
           </div>
@@ -316,19 +417,32 @@ export default function App() {
 
           
         </div>
-        {/* Centered Principal Sponsors block */}
-                  
+        {/* Principal Sponsors block moved below timeline */}
       </section>
-        <div className="timeline-item center reveal" style={{ width: '100%', textAlign: 'center', margin: '32px 0' }}>
-                    <h3 className="timeline-title">Principal Sponsors</h3>
-                    <div className="sponsors-list" style={{ display: 'inline-block', textAlign: 'left', fontSize: '1.1rem', margin: '0 auto' }}>
-                      <div className="sponsor-pair"><span className="sponsor-name">Regalado A. Cordova</span> <span className="sponsor-divider">*</span> <span className="sponsor-name">Jocelyn C. Ballesteros</span></div>
-                      <div className="sponsor-pair"><span className="sponsor-name">Raul Peter M. Santos</span> <span className="sponsor-divider">*</span> <span className="sponsor-name">Lucia C. Maniacup</span></div>
-                      <div className="sponsor-pair"><span className="sponsor-name">Ronald S. Flores</span> <span className="sponsor-divider">*</span> <span className="sponsor-name">Maria Luisa B. Gonzales</span></div>
-                      <div className="sponsor-pair"><span className="sponsor-name">Arnel N. Puri</span> <span className="sponsor-divider">*</span> <span className="sponsor-name">Ana Gloria C. Dizon</span></div>
-                      <div className="sponsor-pair"><span className="sponsor-name">Reginald N. Tiomico</span> <span className="sponsor-divider">*</span> <span className="sponsor-name">Yolanda C. Barrera</span></div>
-                    </div>
-                  </div>
+        
+      {/* Principal Sponsors Section */}
+      <section className="principal-sponsors-section reveal">
+        <h2 className="schedule-title">Principal Sponsors</h2>
+        <div className="sponsors-grid">
+          <div className="sponsors-col sponsors-gentlemen">
+            <h3 className="sponsors-col-title">Gentlemen</h3>
+            <div className="sponsor-name">Regalado A. Cordova</div>
+            <div className="sponsor-name">Raul Peter M. Santos</div>
+            <div className="sponsor-name">Ronald S. Flores</div>
+            <div className="sponsor-name">Arnel N. Puri</div>
+            <div className="sponsor-name">Reginald N. Tiomico</div>
+          </div>
+          <div className="sponsors-col sponsors-ladies">
+            <h3 className="sponsors-col-title">Ladies</h3>
+            <div className="sponsor-name">Jocelyn C. Ballesteros</div>
+            <div className="sponsor-name">Lucia C. Maniacup</div>
+            <div className="sponsor-name">Maria Luisa B. Gonzales</div>
+            <div className="sponsor-name">Ana Gloria C. Dizon</div>
+            <div className="sponsor-name">Yolanda C. Barrera</div>
+          </div>
+        </div>
+      </section>
+
       <section className="reveal" id="rsvp">
         <h2>RSVP</h2>
         <div className="rsvp-details-block">

@@ -173,10 +173,10 @@ export default function App() {
             <div className="dress-code-gallery">
               <div className="dress-item reveal">
                 <img
-                  src="./src/assets/barong.png"
+                  src="https://drive.google.com/file/d/1JDamBvFKvONq2vgJyb0IjlsxZwZB8_o0/view?usp=sharing"
                   alt="Barong/Long Gown"
                   style={{ cursor: 'pointer' }}
-                  onClick={() => window.open('./src/assets/barong.png', '_blank')}
+                  onClick={() => window.open('https://drive.google.com/file/d/1JDamBvFKvONq2vgJyb0IjlsxZwZB8_o0/view?usp=sharing', '_blank')}
                 />
                 <span className="dress-label">Barong & Long Gown</span>
                 <p className="theme"></p>
@@ -196,10 +196,10 @@ export default function App() {
             <div className="dress-code-gallery">
               <div className="dress-item reveal">
                 <img
-                  src="./src/assets/suit.png"
+                  src="https://drive.google.com/file/d/1ghBxi8bMEVNo5u3mkm7bvO7QvVzkaU3X/view?usp=sharing"
                   alt="Suit/Dress"
                   style={{ cursor: 'pointer' }}
-                  onClick={() => window.open('./src/assets/suit.png', '_blank')}
+                  onClick={() => window.open('https://drive.google.com/file/d/1ghBxi8bMEVNo5u3mkm7bvO7QvVzkaU3X/view?usp=sharing', '_blank')}
                 />
                 <span className="dress-label">Suit & Dress</span>
                 <div className="color-swatches">

@@ -112,7 +112,7 @@ export default function App() {
 
         <div className="ceremony-venues">
           <p className="venue-church">Sto. Niño Parish Church, CSFP</p>
-          <p className="venue-reception">The Orchidarium Event Center</p>
+          <p className="venue-reception">The Orchids Garden</p>
         </div>
 
         
@@ -142,7 +142,7 @@ export default function App() {
         <h3 className="section-subheading">Locations</h3>
         <div className="locations-container">
           <div className="location-card">
-            <h3>Church Location</h3>
+            <h3>Church</h3>
             <p>Sto. Niño Parish Church, CSFP</p>
             <a
               href="https://maps.google.com/maps/search/Sto.+Niño+Parish+Church+CSFP"
@@ -154,8 +154,8 @@ export default function App() {
           </div>
 
           <div className="location-card">
-            <h3>Reception Location</h3>
-            <p>The Orchids Garden, CSFP</p>
+            <h3>Reception</h3>
+            <p>The Orchidarium Event Center</p>
             <a
               href="https://maps.google.com/maps/search/The+Orchids+Garden+CSFP"
               target="_blank"
@@ -173,10 +173,10 @@ export default function App() {
             <div className="dress-code-gallery">
               <div className="dress-item reveal">
                 <img
-                  src="https://drive.google.com/file/d/1JDamBvFKvONq2vgJyb0IjlsxZwZB8_o0/view?usp=sharing"
+                  src="https://drive.google.com/uc?export=view&id=1JDamBvFKvONq2vgJyb0IjlsxZwZB8_o0"
                   alt="Barong/Long Gown"
                   style={{ cursor: 'pointer' }}
-                  onClick={() => window.open('https://drive.google.com/file/d/1JDamBvFKvONq2vgJyb0IjlsxZwZB8_o0/view?usp=sharing', '_blank')}
+                  onClick={() => window.open('https://drive.google.com/uc?export=view&id=1JDamBvFKvONq2vgJyb0IjlsxZwZB8_o0', '_blank')}
                 />
                 <span className="dress-label">Barong & Long Gown</span>
                 <p className="theme"></p>
@@ -195,17 +195,12 @@ export default function App() {
             <h4 className="dress-category">Guests</h4>
             <div className="dress-code-gallery">
               <div className="dress-item reveal">
-          <img
-  src="https://drive.google.com/uc?export=view&id=1ghBxi8bMEVNo5u3mkm7bvO7QvVzkaU3X"
-  alt="Suit/Dress"
-  style={{ cursor: 'pointer' }}
-  onClick={() =>
-    window.open(
-      'https://drive.google.com/file/d/1ghBxi8bMEVNo5u3mkm7bvO7QvVzkaU3X/view?usp=sharing',
-      '_blank'
-    )
-  }
-/>
+                <img
+                  src="https://drive.google.com/uc?export=view&id=1ghBxi8bMEVNo5u3mkm7bvO7QvVzkaU3X"
+                  alt="Suit/Dress"
+                  style={{ cursor: 'pointer' }}
+                  onClick={() => window.open('https://drive.google.com/uc?export=view&id=1ghBxi8bMEVNo5u3mkm7bvO7QvVzkaU3X', '_blank')}
+                />
 
                 <span className="dress-label">Suit & Dress</span>
                 <div className="color-swatches">

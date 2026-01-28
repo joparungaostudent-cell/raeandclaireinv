@@ -178,15 +178,21 @@ export default function App() {
                   style={{ cursor: 'pointer' }}
                   onClick={() => window.open('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpQ1wTFfHEjikUMs-2El8RSFG63etnvQFeD9UYYdINpLArOmDLNAjtRFG2Q-iqmKeU1xm3muZkclx8ONgZHhYy8ygaGZ1JFYA6uvug8UGDMuTB98Ok6iT1q3CX9oMCmiAi8dVOYt8ly_Y9XHBcYomo1tTNBsLa7k69Q023pSpk3kmuwOJVRb4vDX6KuYoY/w507-h507/barong.png', '_blank')}
                 />
-                <span className="dress-label">Barong & Long Gown</span>
+                <span className="dress-label">Gentlemen: Barong</span>
+                <div className="color-swatches">
+              <div className="color-swatch" style={{backgroundColor: '#F5F5DC'}} title="Beige"></div>
+              </div>
+                <br></br>
+                <span className="dress-label">Ladies: Long Gown</span>
                 <p className="theme"></p>
+                
             
 
                <div className="color-swatches">
-              <div className="color-swatch" style={{backgroundColor: '#2840b1'}} title="Dark Navy"></div>
-              <div className="color-swatch" style={{backgroundColor: '#1f1f96'}} title="Medium Navy"></div>
-              <div className="color-swatch" style={{backgroundColor: '#1d2e78'}} title="Light Navy"></div>
-              <div className="color-swatch" style={{backgroundColor: '#221f60'}} title="Sky Navy"></div>
+              <div className="color-swatch" style={{backgroundColor: '#0041c0'}} title="Royal"></div>
+              <div className="color-swatch" style={{backgroundColor: '#0b1aa3'}} title="Indigo"></div>
+              <div className="color-swatch" style={{backgroundColor: '#00315b'}} title="Navy"></div>
+              <div className="color-swatch" style={{backgroundColor: '#1a1965'}} title="Berry"></div>
             </div>
               </div>
             </div>
@@ -195,6 +201,7 @@ export default function App() {
             <h4 className="dress-category">Guests</h4>
             <div className="dress-code-gallery">
               <div className="dress-item reveal">
+                
                 <img
                   src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiH7nnfmYIJ4gK4AABNvym1byDbZjBg_aOukUgJoF8MM8FBafsp3HH5vn3ol78lBKrevfPhdO0WkWB2J8zeNdpastnRqLxhA84hzVxHTJ6nyCXHb6aXaIAW7iGZdXb2mZlnUR7tz-cKmymON5z3mqi4_Zpc1sN4cB1IxBkUL_UReYNoOeEpBMX2bDHhyphenhyphenHZO/w604-h604/suit.png"
                   alt="Suit/Dress"
@@ -202,12 +209,20 @@ export default function App() {
                   onClick={() => window.open('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiH7nnfmYIJ4gK4AABNvym1byDbZjBg_aOukUgJoF8MM8FBafsp3HH5vn3ol78lBKrevfPhdO0WkWB2J8zeNdpastnRqLxhA84hzVxHTJ6nyCXHb6aXaIAW7iGZdXb2mZlnUR7tz-cKmymON5z3mqi4_Zpc1sN4cB1IxBkUL_UReYNoOeEpBMX2bDHhyphenhyphenHZO/w604-h604/suit.png', '_blank')}
                 />
 
-                <span className="dress-label">Suit & Dress</span>
+                <span className="dress-label">Gentlemen: Suit / Barong</span>
                 <div className="color-swatches">
-              <div className="color-swatch" style={{backgroundColor: '#8FD3F4'}} title="Dark Navy"></div>
-              <div className="color-swatch" style={{backgroundColor: '#6BB6E8'}} title="Medium Navy"></div>
-              <div className="color-swatch" style={{backgroundColor: '#4A90D9'}} title="Light Navy"></div>
-              <div className="color-swatch" style={{backgroundColor: '#1F3A5F'}} title="Sky Navy"></div>
+                  <div className="color-swatch" style={{backgroundColor: '#36454F'}} title="Charcoal"></div>
+              <div className="color-swatch" style={{backgroundColor: '#02075d'}} title="Dark Navy"></div>
+              <div className="color-swatch" style={{backgroundColor: '#000000'}} title="Black"></div>
+
+              
+            </div> <br></br>
+                <span className="dress-label">Ladies: Long gown / Dress</span>
+                <div className="color-swatches">
+              <div className="color-swatch" style={{backgroundColor: '#8FD3F4'}} title="Sky Navy"></div>
+              <div className="color-swatch" style={{backgroundColor: '#6BB6E8'}} title="Light Navy"></div>
+              <div className="color-swatch" style={{backgroundColor: '#4A90D9'}} title="Medium Navy"></div>
+              <div className="color-swatch" style={{backgroundColor: '#1F3A5F'}} title="Dark Navy"></div>
             </div>
               </div>
             </div>
@@ -255,11 +270,12 @@ export default function App() {
         <h2 className="schedule-title">The Entourage</h2>
 
         <div className="timeline">
+                  
           <div className="timeline-item right reveal">
            
             <h3 className="timeline-title">Officiating Priest</h3>
             <p className="timeline-desc">
-              Rev.Fr. Victor Nicomendes S. Nicdao
+              Rev.Fr. Victor Nicomedes S. Nicdao
             </p>
           </div>
 
@@ -299,6 +315,17 @@ export default function App() {
 
           
         </div>
+        {/* Centered Principal Sponsors block */}
+                  <div className="timeline-item center reveal" style={{ width: '100%', textAlign: 'center', margin: '32px 0' }}>
+                    <h3 className="timeline-title">Principal Sponsors</h3>
+                    <div className="sponsors-list" style={{ display: 'inline-block', textAlign: 'left', fontSize: '1.1rem', margin: '0 auto' }}>
+                      <div className="sponsor-pair"><span className="sponsor-name">Regalado A. Cordova</span> <span className="sponsor-divider">*</span> <span className="sponsor-name">Jocelyn C. Ballesteros</span></div>
+                      <div className="sponsor-pair"><span className="sponsor-name">Raul Peter M. Santos</span> <span className="sponsor-divider">*</span> <span className="sponsor-name">Lucia C. Maniacup</span></div>
+                      <div className="sponsor-pair"><span className="sponsor-name">Ronald S. Flores</span> <span className="sponsor-divider">*</span> <span className="sponsor-name">Maria Luisa Gonzales</span></div>
+                      <div className="sponsor-pair"><span className="sponsor-name">Arnel N. Puri</span> <span className="sponsor-divider">*</span> <span className="sponsor-name">Ana Gloria C. Dizon</span></div>
+                      <div className="sponsor-pair"><span className="sponsor-name">Reginald N. Tiomico</span> <span className="sponsor-divider">*</span> <span className="sponsor-name">Yolanda C. Barrera</span></div>
+                    </div>
+                  </div>
       </section>
 
       <section className="reveal" id="rsvp">

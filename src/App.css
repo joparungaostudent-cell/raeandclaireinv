@@ -1,3 +1,22 @@
+.hero-image-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto 32px auto;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-image-container img {
+  width: 100%;
+  height: auto;
+  max-height: 600px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  border-radius: 0 0 32px 32px;
+  box-shadow: 0 8px 40px rgba(44,90,160,0.10);
+}
 /* Principal Sponsors Section */
 .principal-sponsors-section {
   background: linear-gradient(135deg, rgba(232,240,247,.4), rgba(217,231,240,.4));
@@ -104,10 +123,18 @@
     opacity: 1;
   }
 }
-/* Timeline content spacing for left/right alternation */
-.timeline-content {
-  background: none;
-  display: block;
+
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background: #acb9c8;
+  background-attachment: fixed;
+  color: #1a3a52;
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 @media (min-width: 769px) {
@@ -419,7 +446,7 @@ html {
 body {
   margin: 0;
   font-family: 'Georgia', serif;
-  background: linear-gradient(135deg, #e8f0f7 0%, #d9e7f0 100%);
+  background: #acb9c8;
   background-attachment: fixed;
   color: #1a3a52;
   line-height: 1.6;
@@ -453,7 +480,7 @@ body {
   .navbar {
     z-index: 1200;
   }
-}
+
 
 /* Brand/couple name on the left */
 .nav-brand {

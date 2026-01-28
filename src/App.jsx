@@ -53,74 +53,21 @@ export default function App() {
         </div>
       </nav>
 
-      <section className="hero reveal" id="home">
-        <div className="hero-top-decor">
-          <svg className="blue-flower-decoration" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-            <g>
-              <circle cx="50" cy="50" r="8" fill="#2c5aa0"/>
-              <ellipse cx="50" cy="25" rx="6" ry="8" fill="#2c5aa0"/>
-              <ellipse cx="70" cy="35" rx="6" ry="8" fill="#2c5aa0" transform="rotate(45 70 35)"/>
-              <ellipse cx="75" cy="55" rx="6" ry="8" fill="#2c5aa0" transform="rotate(90 75 55)"/>
-              <ellipse cx="65" cy="75" rx="6" ry="8" fill="#2c5aa0" transform="rotate(135 65 75)"/>
-              <ellipse cx="45" cy="80" rx="6" ry="8" fill="#2c5aa0" transform="rotate(180 45 80)"/>
-              <ellipse cx="25" cy="70" rx="6" ry="8" fill="#2c5aa0" transform="rotate(225 25 70)"/>
-              <ellipse cx="20" cy="50" rx="6" ry="8" fill="#2c5aa0" transform="rotate(270 20 50)"/>
-              <ellipse cx="30" cy="30" rx="6" ry="8" fill="#2c5aa0" transform="rotate(315 30 30)"/>
-            </g>
-          </svg>
-        </div>
-
-        <p className="ceremony-header">THE WEDDING CEREMONY OF</p>
-        
-        <div className="hero-names-wrapper">
-          <div className="names-top">
-            <span className="initial-large">R</span>
-            <svg className="flower-divider" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-              <path d="M 50 70 Q 48 55 50 35" stroke="#1a3a52" strokeWidth="1.2" fill="none" strokeLinecap="round"/>
-              <path d="M 45 50 Q 40 45 35 40" stroke="#1a3a52" strokeWidth="1.2" fill="none" strokeLinecap="round"/>
-              <path d="M 55 50 Q 60 45 65 40" stroke="#1a3a52" strokeWidth="1.2" fill="none" strokeLinecap="round"/>
-              <path d="M 42 48 Q 38 42 35 35" stroke="#1a3a52" strokeWidth="1" fill="none" strokeLinecap="round"/>
-              <path d="M 58 48 Q 62 42 65 35" stroke="#1a3a52" strokeWidth="1" fill="none" strokeLinecap="round"/>
-              <path d="M 47 45 Q 45 38 45 30" stroke="#1a3a52" strokeWidth="0.8" fill="none" strokeLinecap="round"/>
-              <path d="M 53 45 Q 55 38 55 30" stroke="#1a3a52" strokeWidth="0.8" fill="none" strokeLinecap="round"/>
-            </svg>
-            <span className="initial-large">C</span>
-          </div>
-          <div className="names-bottom">
-            <span className="full-name">RAE</span>
-            <span className="name-separator">AND</span>
-            <span className="full-name">CLAIRE</span>
-          </div>
-        </div>
-
-        <div className="formal-date-section">
-          <div className="date-layout">
-            <div className="date-left">
-              <span className="date-day">SATURDAY</span>
-              <div className="date-line"></div>
-            </div>
-            <div className="date-vertical-divider"></div>
-            <div className="date-middle">
-              <span className="date-month">MARCH</span>
-              <span className="date-number">21</span>
-              <span className="date-year">2026</span>
-            </div>
-            <div className="date-vertical-divider"></div>
-            <div className="date-right">
-              <div className="date-line"></div>
-              <span className="date-time">2:30 PM</span>
-            </div>
-          </div>
-        </div>
-
-        <div className="ceremony-venues">
-          <p className="venue-church">Sto. Niño Parish Church, CSFP</p>
-          <p className="venue-reception">The Orchids Garden</p>
-        </div>
-
-        
-          
-        
+      <section className="hero-image-container" id="home">
+        <img
+          src="./src/assets/landing.jpg"
+          alt="Wedding Hero"
+          style={{
+            width: '100%',
+            height: 'auto',
+            maxHeight: '600px',
+            objectFit: 'cover',
+            display: 'block',
+            margin: '0 auto',
+            borderRadius: '0 0 32px 32px',
+            boxShadow: '0 8px 40px rgba(44,90,160,0.10)'
+          }}
+        />
       </section>
 
       <section className="reveal" id="details">
@@ -464,6 +411,17 @@ export default function App() {
         <p>With love and joy,</p>
         <h3>Rae & Claire</h3>
         <p className="footer-date">March 21, 2026</p>
+        <p style={{ fontSize: '0.78rem', color: '#a0adc0', marginTop: '10px', marginBottom: 0, textAlign: 'center', letterSpacing: '0.01em' }}>
+          © 2026 J&amp;M Dev |{' '}
+          <a
+            href="https://www.facebook.com/joshua.parungao.930542"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: '#a0adc0', textDecoration: 'none', fontWeight: 400 }}
+          >
+            Joshua Parungao
+          </a>
+        </p>
       </footer>
 
     </div>

@@ -425,7 +425,7 @@ export default function App() {
         <h2 className="schedule-title">Principal Sponsors</h2>
         <div className="sponsors-grid">
           <div className="sponsors-col sponsors-gentlemen">
-            <h3 className="sponsors-col-title">Gentlemen</h3>
+            <h3 className="sponsors-col-title"></h3>
             <div className="sponsor-name">Regalado A. Cordova</div>
             <div className="sponsor-name">Raul Peter M. Santos</div>
             <div className="sponsor-name">Ronald S. Flores</div>
@@ -433,7 +433,7 @@ export default function App() {
             <div className="sponsor-name">Reginald N. Tiomico</div>
           </div>
           <div className="sponsors-col sponsors-ladies">
-            <h3 className="sponsors-col-title">Ladies</h3>
+            <h3 className="sponsors-col-title"></h3>
             <div className="sponsor-name">Jocelyn C. Ballesteros</div>
             <div className="sponsor-name">Lucia C. Maniacup</div>
             <div className="sponsor-name">Maria Luisa B. Gonzales</div>

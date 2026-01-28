@@ -1573,7 +1573,6 @@ footer h3 {
     width: 48%;
     margin-bottom: 35px;
   }
-    padding: 0 0 0 32px;
   .timeline-item.left {
     /* Move closer to center line */
     transform: translateX(-16px);
@@ -2141,7 +2140,6 @@ footer h3 {
   section {
     padding: 25px 15px;
   }
-    padding: 0 0 0 18px;
   .details-grid {
     gap: 15px;
   }

@@ -112,7 +112,7 @@ export default function App() {
 
         <div className="ceremony-venues">
           <p className="venue-church">Sto. Niño Parish Church, CSFP</p>
-          <p className="venue-reception">The Orchids Garden</p>
+          <p className="venue-reception">The Orchidarium Event Center</p>
         </div>
 
         
@@ -195,12 +195,18 @@ export default function App() {
             <h4 className="dress-category">Guests</h4>
             <div className="dress-code-gallery">
               <div className="dress-item reveal">
-                <img
-                  src="https://drive.google.com/file/d/1ghBxi8bMEVNo5u3mkm7bvO7QvVzkaU3X/view?usp=sharing"
-                  alt="Suit/Dress"
-                  style={{ cursor: 'pointer' }}
-                  onClick={() => window.open('https://drive.google.com/file/d/1ghBxi8bMEVNo5u3mkm7bvO7QvVzkaU3X/view?usp=sharing', '_blank')}
-                />
+          <img
+  src="https://drive.google.com/uc?export=view&id=1ghBxi8bMEVNo5u3mkm7bvO7QvVzkaU3X"
+  alt="Suit/Dress"
+  style={{ cursor: 'pointer' }}
+  onClick={() =>
+    window.open(
+      'https://drive.google.com/file/d/1ghBxi8bMEVNo5u3mkm7bvO7QvVzkaU3X/view?usp=sharing',
+      '_blank'
+    )
+  }
+/>
+
                 <span className="dress-label">Suit & Dress</span>
                 <div className="color-swatches">
               <div className="color-swatch" style={{backgroundColor: '#8FD3F4'}} title="Dark Navy"></div>

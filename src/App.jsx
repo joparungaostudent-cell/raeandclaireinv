@@ -401,17 +401,17 @@ export default function App() {
 
           <div className="timeline-item left reveal">
             
-            <h3 className="timeline-title">Man of Honor</h3>
+            <h3 className="timeline-title">Best Woman</h3>
             <p className="timeline-desc">
-              Jeremiah L. Tiomico
+              Czarina Mae L. Cordova
             </p>
           </div>
 
           <div className="timeline-item right reveal">
             
-            <h3 className="timeline-title">Best Woman</h3>
+            <h3 className="timeline-title">Man of Honor</h3>
             <p className="timeline-desc">
-              Czarina Mae L. Cordova
+              Jeremiah L. Tiomico
             </p>
           </div>
 

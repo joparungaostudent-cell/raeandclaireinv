@@ -173,10 +173,10 @@ export default function App() {
             <div className="dress-code-gallery">
               <div className="dress-item reveal">
                 <img
-                  src="https://drive.google.com/uc?export=view&id=1JDamBvFKvONq2vgJyb0IjlsxZwZB8_o0"
+                  src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpQ1wTFfHEjikUMs-2El8RSFG63etnvQFeD9UYYdINpLArOmDLNAjtRFG2Q-iqmKeU1xm3muZkclx8ONgZHhYy8ygaGZ1JFYA6uvug8UGDMuTB98Ok6iT1q3CX9oMCmiAi8dVOYt8ly_Y9XHBcYomo1tTNBsLa7k69Q023pSpk3kmuwOJVRb4vDX6KuYoY/w507-h507/barong.png"
                   alt="Barong/Long Gown"
                   style={{ cursor: 'pointer' }}
-                  onClick={() => window.open('https://drive.google.com/uc?export=view&id=1JDamBvFKvONq2vgJyb0IjlsxZwZB8_o0', '_blank')}
+                  onClick={() => window.open('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpQ1wTFfHEjikUMs-2El8RSFG63etnvQFeD9UYYdINpLArOmDLNAjtRFG2Q-iqmKeU1xm3muZkclx8ONgZHhYy8ygaGZ1JFYA6uvug8UGDMuTB98Ok6iT1q3CX9oMCmiAi8dVOYt8ly_Y9XHBcYomo1tTNBsLa7k69Q023pSpk3kmuwOJVRb4vDX6KuYoY/w507-h507/barong.png', '_blank')}
                 />
                 <span className="dress-label">Barong & Long Gown</span>
                 <p className="theme"></p>
@@ -196,10 +196,10 @@ export default function App() {
             <div className="dress-code-gallery">
               <div className="dress-item reveal">
                 <img
-                  src="https://drive.google.com/uc?export=view&id=1ghBxi8bMEVNo5u3mkm7bvO7QvVzkaU3X"
+                  src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiH7nnfmYIJ4gK4AABNvym1byDbZjBg_aOukUgJoF8MM8FBafsp3HH5vn3ol78lBKrevfPhdO0WkWB2J8zeNdpastnRqLxhA84hzVxHTJ6nyCXHb6aXaIAW7iGZdXb2mZlnUR7tz-cKmymON5z3mqi4_Zpc1sN4cB1IxBkUL_UReYNoOeEpBMX2bDHhyphenhyphenHZO/w604-h604/suit.png"
                   alt="Suit/Dress"
                   style={{ cursor: 'pointer' }}
-                  onClick={() => window.open('https://drive.google.com/uc?export=view&id=1ghBxi8bMEVNo5u3mkm7bvO7QvVzkaU3X', '_blank')}
+                  onClick={() => window.open('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiH7nnfmYIJ4gK4AABNvym1byDbZjBg_aOukUgJoF8MM8FBafsp3HH5vn3ol78lBKrevfPhdO0WkWB2J8zeNdpastnRqLxhA84hzVxHTJ6nyCXHb6aXaIAW7iGZdXb2mZlnUR7tz-cKmymON5z3mqi4_Zpc1sN4cB1IxBkUL_UReYNoOeEpBMX2bDHhyphenhyphenHZO/w604-h604/suit.png', '_blank')}
                 />
 
                 <span className="dress-label">Suit & Dress</span>

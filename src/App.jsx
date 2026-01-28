@@ -55,7 +55,7 @@ export default function App() {
 
       <section className="hero-image-container" id="home">
         <img
-          src="./src/assets/landing.jpg"
+          src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiyaAfcNAMJJuW0XOGDG5m3ecU_95klsMBLfgXywgC7JCBvjUX7-qrPx2Y1d52OsSi9lvioIYY9YTW3oQbf_h-R-vZfhEc2-bqKwgw2FO_aFkqVCQ4BldzHBMBrLRuC_vCF5gDAeTnCLlP3Ax7gjhILoWAWjy9YnBgvrEKeysmc9JeD-WRvuuXzGU8DV3Xi/w767-h587/landing.jpg"
           alt="Wedding Hero"
           style={{
             width: '100%',

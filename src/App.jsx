@@ -157,7 +157,7 @@ export default function App() {
             <h3>Reception</h3>
             <p>The Orchidarium Event Center</p>
             <a
-              href="https://maps.google.com/maps/search/The+Orchids+Garden+CSFP"
+              href="https://maps.app.goo.gl/gr9fPyT4UNahxjd48"
               target="_blank"
               className="button"
             >
@@ -190,8 +190,9 @@ export default function App() {
 
                <div className="color-swatches">
               <div className="color-swatch" style={{backgroundColor: '#0041c0'}} title="Royal"></div>
+        
               <div className="color-swatch" style={{backgroundColor: '#0b1aa3'}} title="Indigo"></div>
-              <div className="color-swatch" style={{backgroundColor: '#00315b'}} title="Navy"></div>
+              <div className="color-swatch" style={{backgroundColor: '#002d83'}} title="Sapphire"></div>
               <div className="color-swatch" style={{backgroundColor: '#1a1965'}} title="Berry"></div>
             </div>
               </div>
@@ -219,10 +220,10 @@ export default function App() {
             </div> <br></br>
                 <span className="dress-label">Ladies: Long gown / Dress</span>
                 <div className="color-swatches">
-              <div className="color-swatch" style={{backgroundColor: '#8FD3F4'}} title="Sky Navy"></div>
-              <div className="color-swatch" style={{backgroundColor: '#6BB6E8'}} title="Light Navy"></div>
-              <div className="color-swatch" style={{backgroundColor: '#4A90D9'}} title="Medium Navy"></div>
-              <div className="color-swatch" style={{backgroundColor: '#1F3A5F'}} title="Dark Navy"></div>
+              <div className="color-swatch" style={{backgroundColor: '#00bff5'}} title="Sky"></div>
+              <div className="color-swatch" style={{backgroundColor: '#00e0fa'}} title="Aqua"></div>
+              <div className="color-swatch" style={{backgroundColor: '#0097e3'}} title="Ocean"></div>
+              <div className="color-swatch" style={{backgroundColor: '#00315b'}} title="Navy"></div>
             </div>
               </div>
             </div>
@@ -316,18 +317,18 @@ export default function App() {
           
         </div>
         {/* Centered Principal Sponsors block */}
-                  <div className="timeline-item center reveal" style={{ width: '100%', textAlign: 'center', margin: '32px 0' }}>
+                  
+      </section>
+        <div className="timeline-item center reveal" style={{ width: '100%', textAlign: 'center', margin: '32px 0' }}>
                     <h3 className="timeline-title">Principal Sponsors</h3>
                     <div className="sponsors-list" style={{ display: 'inline-block', textAlign: 'left', fontSize: '1.1rem', margin: '0 auto' }}>
                       <div className="sponsor-pair"><span className="sponsor-name">Regalado A. Cordova</span> <span className="sponsor-divider">*</span> <span className="sponsor-name">Jocelyn C. Ballesteros</span></div>
                       <div className="sponsor-pair"><span className="sponsor-name">Raul Peter M. Santos</span> <span className="sponsor-divider">*</span> <span className="sponsor-name">Lucia C. Maniacup</span></div>
-                      <div className="sponsor-pair"><span className="sponsor-name">Ronald S. Flores</span> <span className="sponsor-divider">*</span> <span className="sponsor-name">Maria Luisa Gonzales</span></div>
+                      <div className="sponsor-pair"><span className="sponsor-name">Ronald S. Flores</span> <span className="sponsor-divider">*</span> <span className="sponsor-name">Maria Luisa B. Gonzales</span></div>
                       <div className="sponsor-pair"><span className="sponsor-name">Arnel N. Puri</span> <span className="sponsor-divider">*</span> <span className="sponsor-name">Ana Gloria C. Dizon</span></div>
                       <div className="sponsor-pair"><span className="sponsor-name">Reginald N. Tiomico</span> <span className="sponsor-divider">*</span> <span className="sponsor-name">Yolanda C. Barrera</span></div>
                     </div>
                   </div>
-      </section>
-
       <section className="reveal" id="rsvp">
         <h2>RSVP</h2>
         <div className="rsvp-details-block">
